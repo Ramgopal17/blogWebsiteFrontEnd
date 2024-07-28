@@ -1,0 +1,48 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination .pagination-item {
+  margin: 10 5px !important;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .pagination-item.active {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.wpo-blog-pg-section .entry-meta ul li {
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.9333333333rem;
+  float: left;
+  text-transform: none !important;
+}
+
+
+.no-data-icon {
+  font-size: 36px;
+  display: block;
+
+}
+
+.no-data-text {
+  font-size: 20px;
+  color: #c9c9ce !important;
+  line-height: normal;
+}
+@media screen and(max-width:768px) {
+  .no-data-text {
+    font-size: 18px !important;
+    color: #c9c9ce !important;
+    line-height: normal !important;
+  }
+  
+}

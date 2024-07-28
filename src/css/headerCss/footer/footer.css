@@ -1,0 +1,146 @@
+footer{
+
+  background: linear-gradient(rgba(243,242,247,0.95),rgba(243,242,247,0.95));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .linksAndContact{
+  display: flex;
+  gap: 70px;
+  padding: 100px 0;
+}
+
+footer .linksAndContact *{
+  font-size: 16px;
+  color: gray;
+
+}
+
+footer .linksAndContact .logo{
+  flex-basis: 350px;
+}
+footer .linksAndContact .quickLinks{
+  flex-basis: 150px;
+}
+
+footer .linksAndContact .logo p{
+  text-align: justify;
+  padding: 20px 0;
+}
+
+footer .linksAndContact .logo form{
+  height: 50px;
+}
+
+footer .linksAndContact .logo input{
+  padding-left: 10px;
+  height: 100%;
+}
+
+footer .linksAndContact .logo input::placeholder{
+  color: gray;
+}
+
+footer .linksAndContact .logo button{
+  height: 100%;
+  padding: 10px 20px; 
+  background-color: var(--customBlue);
+  color: white;
+  font-size: 16px;
+  border: 1px solid var(--customBlue);
+  transform: translateY(-1px);
+  transition: all 0.5s ease;
+}
+
+footer .linksAndContact .logo button:hover{
+  color: var(--customBlue);
+  background-color: white;
+}
+
+footer .linksAndContact .contactDetailsType{
+  display: flex;
+  gap: 70px;
+}
+
+footer .linksAndContact .contactDetailsType p{
+  margin: 0;
+}
+
+footer .linksAndContact .mainHeading{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(42, 53, 78);
+}
+footer .linksAndContact .quickLinks ul{
+  padding-top: 20px;
+}
+footer .linksAndContact .quickLinks ul li{
+  list-style: square inside; 
+  margin-bottom: 7px;
+}
+
+footer .linksAndContact .subHeading{
+  color: var(--customBlue);
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+
+footer .footerSocialLinks i{
+  color: white;
+  display: inline-block;
+  background-color: var(--customBlue);
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  border-radius: 2px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+footer .copyWriteAndPrivacy{
+  background: rgb(242,242,242) ;
+  padding: 20px 0;
+}
+
+footer .copyWriteAndPrivacy .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyWriteAndPrivacy .container p{
+  font-size: 16px;
+  color: rgb(88, 88, 88);
+  margin: 0;
+}
+
+footer .copyWriteAndPrivacy .container p a{
+  color: var(--customBlue);
+}
+
+
+
+
+@media (max-width:1200px){
+  footer .linksAndContact .contactDetailsType{
+    display: block;
+  }
+}
+
+@media (max-width:990px){
+  footer .linksAndContact .logo input{
+    width: 150px;
+  }
+  
+  footer .linksAndContact{
+    gap: 30px;
+  }
+}
+
+@media (max-width:767px){
+  footer .linksAndContact{
+    flex-direction: column;
+  }
+}

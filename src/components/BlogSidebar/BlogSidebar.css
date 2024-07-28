@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+p,
+h1,
+h2,
+h3,
+h4,
+Link,
+a {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.blog-sidebar .category-widget ul a {
+  display: block;
+  color: #474f62;
+  position: relative;
+  padding-left: 30px;
+  font-size: 20px !important;
+}
+
+
+.highlightedTag li a {
+  display: inline;
+  color: #474f62;
+  position: relative;
+  padding-left: 30px;
+  font-size: 13px !important;
+}
+ @media (max-width: 1200px) and (min-width: 990px) {  
+  .blog-sidebar .widget {
+    margin-bottom: 30px;
+    padding: 10px !important;
+    border: 1px solid #eef0fc;
+}
+  
+ }
+
+
+
+
+
+ 
+ .shimmer {
+  position: relative; 
+  background: #3a3a3a !important;
+  background-image: linear-gradient(to right, #3a3a3a 0%, #3f3f3f 10%, #4a4a4a 20%, #3f3f3f 30%, #3a3a3a 50%, #3a3a3a 100%);
+  background-repeat: no-repeat;
+
+  width: 100%;
+  
+/* Animantion */
+  -webkit-animation-duration: 1s;
+  
+  /* Specifies style for element when animation isn't playing */
+  -webkit-animation-fill-mode: forwards;
+  
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: shimmer;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0; 
+  }
+}
+
+#container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  width: 150px;
+  height: 150px;
+}
+
+#content {
+  flex: 1;
+  height: 50vh; 
+  width: 100%;
+  padding: 5vh 1rem 0 1rem; 
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+#title {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+#desc {
+  min-height: 120px !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+#descOnDetailPage{
+  min-height: 90vh !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.line{  
+  width: 100%;
+  height: 10px;
+}
+
+

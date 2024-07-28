@@ -1,0 +1,181 @@
+.theme-bg-black,
+.theme-bg-black .it-testimonial-box:before,
+.theme-bg-black .it-testimonial-box:after,
+.theme-bg-black .header-sticky {
+  background-color: black;
+}
+
+.theme-bg-black .h1,
+.theme-bg-black .h2,
+.theme-bg-black .h3,
+.theme-bg-black .h4,
+.theme-bg-black .h5,
+.theme-bg-black .h6,
+.theme-bg-black h1,
+.theme-bg-black h2,
+.theme-bg-black > h3,
+.theme-bg-black h4,
+.theme-bg-black h5,
+.theme-bg-black h6 {
+  color: #ffffff !important;
+
+}
+p,span{
+  background-color: #0000 !important;
+  color: #c9c9ce !important;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #ffff !important;
+}
+.wpo-blog-content h2{
+  color: #ffff !important;
+}
+.custom-list div p a span{
+  color:blue !important;
+}
+
+.listing div p a span{
+  color:blue !important;
+}
+.theme-bg-black .tp-footer__widget ul li a,.theme-bg-black .tp-footer__widget ul li span{
+  color:#c9c9ce !important;
+}
+.theme-bg-black>li>Link,
+.theme-bg-black > div
+.theme-bg-black .tp-section p,
+.theme-bg-black .ca-service__item,
+.theme-bg-black .ca-service__item p,
+.theme-bg-black .app-feature__info span,
+.theme-bg-black .it-testimonial-box__review,
+.theme-bg-black .it-blog-info,
+.theme-bg-black .tp-footer__widget p,
+
+.theme-bg-black .main-menu .headerUL li a,
+.theme-bg-black .dropdownCustom .dropdown-toggle,
+.theme-bg-black.seo-feature-area .tp-section p,
+
+.theme-bg-black .ourAchievement .mainDiv *,
+.theme-bg-black .tp-ab-sv-tabs .nav-pills .nav-link {
+  color: white !important;
+}
+.theme-bg-black .tp-footer__widget p{
+  color:#c9c9ce !important;
+}
+.theme-bg-black .tp-copyrigh-text a,
+.theme-bg-black .tp-copyrigh-text span{
+  color:#c9c9ce !important;
+}
+.theme-bg-black .tp-footer__widget ul li a,.theme-bg-black .tp-footer-menu{
+color:#c9c9ce !important;
+}
+/* ======================cards background================== */
+.theme-bg-black .ca-service-wrapper,
+.theme-bg-black .app-feature-box,
+.theme-bg-black .tp-bs-service-box,
+.theme-bg-black .it-service__item,
+.theme-bg-black .tp-ab-sv-tabs .nav-pills .nav-link {
+  background-color: #1e2222;
+  border: 2px solid #3d3d3d;
+}
+/* ======================cards background================== */
+
+/* ==========language dropdown============= */
+.theme-bg-black .dropdownCustom .dropdown-menu-custom li {
+  background-color: #1e2222;
+}
+.table{
+  overflow-x: auto !important;
+}
+
+.custom-list div h1 ,
+.custom-list div h2 ,
+.custom-list div h3 ,
+.custom-list div h4 ,
+.custom-list div h5 ,
+.custom-list div h6 {
+    margin: 32px 0 !important;
+}
+
+.custom-list div p{
+  margin:16px 0px !important;
+}
+/* ==========language dropdown============= */
+
+/* ===================footer================ */
+.theme-bg-black .bs-footer__top-social a {
+  border: 2px solid black;
+}
+
+.theme-bg-black .tp-footer__widget ul li:hover a {
+  color: var(--tp-theme-redical);
+}
+/* ===================footer================ */
+
+/* ===============header================ */
+.theme-bg-black .header-border-button {
+  border-bottom: none;
+}
+
+.theme-bg-black.is-header-not-sticky.onlyHome {
+  background-color: #00000030;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.theme-bg-black.is-header-not-sticky.onlyHome .main-menu .headerUL li .submenu {
+  background-color: #00000030;
+  border: none;
+  backdrop-filter: blur(5px);
+}
+.theme-bg-black .main-menu .headerUL li .submenu {
+  border: 2px solid #3d3d3d;
+}
+.theme-bg-black.is-header-not-sticky.onlyHome
+  .main-menu
+  .headerUL
+  li:hover
+  > a {
+  color: #324da0;
+}
+.theme-bg-black .tp-footer__widget ul li a,.theme-bg-black .tp-footer__widget ul li span{
+  color:#c9c9ce !important;
+}
+.theme-bg-black.is-header-not-sticky.onlyHome
+  .main-menu
+  .headerUL
+  li:hover
+  > a {
+  color: #324da0;
+}
+
+/* ===============header================ */
+/* 
+.theme-bg-black .ourAchievement .mainDiv {
+  background: #1e2222;
+  border: 2px solid #f47f20;
+  
+} */
+
+.theme-bg-black .ourAchievement{
+  background: #1e2222;
+  border: 2px solid green;
+  /* border: 20px solid white; */
+}
+
+
+.theme-bg-black .industriesInfoBackground {
+  background: linear-gradient(to bottom, black 90px, white 20px);
+}
+
+/* ======service tech writing========== */
+.theme-bg-black .it-service__item::after {
+  -webkit-text-fill-color: black;
+}

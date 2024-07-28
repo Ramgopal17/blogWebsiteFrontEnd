@@ -1,0 +1,9 @@
+div > .formHeading {
+    color: black !important;
+    font-size: 20px;
+}
+div >label{
+    display: contents;
+    margin-left: 10px !important;
+
+}

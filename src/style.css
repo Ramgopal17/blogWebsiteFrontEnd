@@ -1,0 +1,41 @@
+p {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
+
+
+/* styles.css */
+
+
+.markdown.table {
+  /* Define styles for the table */
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown.table th {
+  /* Define styles for table headers */
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+
+.markdown.table td {
+  /* Define styles for table cells */
+  border: 1px solid #ddd !important;
+  padding: 8px;
+}
+
+.markdown.table tr:nth-child(even) {
+  /* Define styles for alternating row background */
+  background-color: #f9f9f9;
+}
+
+.markdown.table tr:hover {
+  /* Define styles for row hover effect */
+  background-color: #e2e2e2;
+}
+
+.font-12{
+  font-size: 12px;
+}
